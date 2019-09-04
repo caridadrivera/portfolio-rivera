@@ -1,9 +1,10 @@
 import React, { useState, useEffect }  from 'react';
-import Homepage from './Components/Homepage/Homepage';
-import logo from './logo.svg';
+import About from './Components/About/About';
+import Services from './Components/Services/Services';
+
 import './App.css';
-import desktopImage from './portfoliobackground.jpeg'
-import mobileImage from './portfoliobackground2.jpg'
+import desktopImage from './portfoliobackground.jpeg';
+import mobileImage from './portfoliobackground2.jpeg';
 
 /*Note that this is a functional component, since Hooks do not work with class components. */
 
@@ -31,12 +32,43 @@ const App = () => {
   const imageUrl = window.innerWidth >= 650 ? desktopImage : mobileImage
 
   return (
-        <div className="App" style={{backgroundImage: `url(${imageUrl})` }}>
-            <div className="App-content">
-                <h1>Caridad Rivera</h1>
-                <p>Developer.</p>
-            </div>
-        </div>
+    <div className="App">
+       <div className="menu-toggler">
+         <div className="bar half start"></div>
+         <div className="bar"></div>
+         <div className="bar half end"></div>
+       </div>
+       <nav className="top-nav">
+         <ul className="nav-list">
+           <li>
+             <a href="index.html" className="nav-link">Home</a>
+           </li>
+           <li>
+             <a href="#about" className="nav-link">About</a>
+           </li>
+           <li>
+             <a href="#services" className="nav-link">Services</a>
+           </li>
+           <li>
+             <a href="#porfolio" className="nav-link">Portfolio</a>
+           </li>
+           <li>
+             <a href="#experience" className="nav-link">Experience</a>
+           </li>
+           <li>
+             <a href="#contact" className="nav-link">Contact</a>
+           </li>
+         </ul>
+       </nav>
+       <div className="landing-text">
+         <h1>Caridad Rivera</h1>
+         <h6>FullStack Developer</h6>
+       </div>
+       <About />
+       <Services />
+    </div>
+
+
     );
 }
 
