@@ -1,7 +1,7 @@
 import React, { useState, useEffect }  from 'react';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
-
+import Portfolio from './Components/Portfolio/Portfolio';
 import './App.css';
 import desktopImage from './portfoliobackground.jpeg';
 import mobileImage from './portfoliobackground2.jpeg';
@@ -66,6 +66,7 @@ const App = () => {
        </div>
        <About />
        <Services />
+       <Portfolio />
     </div>
 
 
