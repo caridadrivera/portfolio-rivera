@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../images/profile.jpeg';
 import './About.css';
 
 const About = () => {
@@ -7,7 +8,7 @@ const About = () => {
       <section className="about" id="about">
         <div className="container">
             <div className="profile-img">
-              <img src="" alt=""/>
+               <img src={profileImg} alt="" />
             </div>
           <div className="about-details">
             <div className="about-heading">
