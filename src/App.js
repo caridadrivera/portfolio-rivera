@@ -4,7 +4,7 @@ import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Experience from './Components/Experience/Experience';
 import Contact from './Components/Contact/Contact';
-
+import Footer from './Components/Footer/Footer';
 
 import './App.css';
 import desktopImage from './portfoliobackground.jpeg';
@@ -73,6 +73,7 @@ const App = () => {
        <Portfolio />
        <Experience />
        <Contact />
+       <Footer />
     </div>
 
 
