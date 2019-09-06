@@ -5,11 +5,17 @@ import Portfolio from './Components/Portfolio/Portfolio';
 import Experience from './Components/Experience/Experience';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
-
 import './App.css';
 import desktopImage from './portfoliobackground.jpg';
 import mobileImage from './portfoliobackground2.jpg';
+import $ from 'jquery';
 
+$(document).ready(function() {
+  $('.menu-toggler').on('click', function() {
+    $(this).toggleClass('open');
+    $('.top-nav').toggleClass('open');
+  });
+});
 /*Note that this is a functional component, since Hooks do not work with class components. */
 
 const App = () => {

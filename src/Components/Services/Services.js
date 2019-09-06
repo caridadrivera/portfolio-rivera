@@ -8,6 +8,7 @@ const Services = () =>{
             <h1>Services </h1>
             <h6> What I can do for you </h6>
         </div>
+
         <div class="my-skills">
           <div class="skill">
             <div class="icon-container">
@@ -21,7 +22,7 @@ const Services = () =>{
           </div>
           <div class="skill">
             <div class="icon-container">
-              <i class="fas fa-layer-group"> </i>
+              <i class="fas fa-code"> </i>
             </div>
             <h1> Web Development</h1>
             <p>
@@ -29,16 +30,7 @@ const Services = () =>{
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
             </p>
           </div>
-          <div class="skill">
-            <div class="icon-container">
-              <i class="fas fa-layer-group"> </i>
-            </div>
-            <h1> Product Strategy</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
-            </p>
-          </div>
+
 
         </div>
       </div>
