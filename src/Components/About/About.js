@@ -7,22 +7,24 @@ const About = () => {
 
 
     return (
+
       <section className="about" id="about">
         <div className="container">
-            <div className="profile-img">
+            <div className="profile-img" data-aos="fade-right" data-aos-delay="300">
                <img src={profileImg} alt="" />
             </div>
-            
-          <div className="about-details">
+
+          <div className="about-details" data-aos="fade-left" data-aos-delay="600">
             <div className="about-heading">
               <h1>About</h1>
               <h6>About</h6>
             </div>
             <p>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod t
-              empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco l
-              aboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              Cari for short. I am a Software Developer with experience in the design 
+              and architecture of beautiful, intuitive websites using hand-drawn wireframes,
+              HTML, CSS, Jquery, JavaScript, React.js, Redux.js for the front-end and
+              Ruby, Ruby on Rails, Sinatra, and SQL for back-end persistance.
+              When I am not coding, I am reading, meditating and staying active.
             </p>
 
             <div className="social-media">

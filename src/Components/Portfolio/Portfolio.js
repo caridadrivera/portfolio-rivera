@@ -40,7 +40,7 @@ const Portfolio = () => {
             </p>
             <a href="#" className="cta"> View Details </a>
           </div>
-          <div className="portfolio-img has-margin-right">
+          <div className="portfolio-img">
             <img src={mindfulImg} alt=""/>
           </div>
         </div>
