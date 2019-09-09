@@ -75,9 +75,17 @@ const App = () => {
        <Services />
        <Portfolio />
        <Experience />
-       <Contact />
-       <Footer />
+       <footer className="copyright">
+         <div className="up" id="up">
+             <i className="fas fa-chevron-up"> </i>
+             <p> &copy; 2019 Caridad Rivera </p>
+         </div>
+
+       </footer>
+
     </div>
+
+
 
 
     );

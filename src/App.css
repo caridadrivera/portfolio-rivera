@@ -21,11 +21,12 @@
 
  .section-heading h1{
    font-size: 3.5rem;
-   color: rgba(255, 255, 255, .3);
+   color:  rgba(8, 43, 4, 0.3);
    text-transform: uppercase;
    font-weight: 300;
    position: relative;
    margin-bottom: 1rem;
+   margin-top: 10rem;
  }
 
 
@@ -73,8 +74,8 @@
   height: 100vh;
   position: fixed;
   top: -100vh;
-  z-index: 99;
-  background-color: pink;
+  z-index: 50;
+  background-color: #493636;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1,0,0,1);
@@ -226,25 +227,28 @@ li {
   margin-top: 5rem;
 }
 
-.social-media i{
+.social-media li{
   font-size: 5rem;
   transition: color 650ms;
 }
 
+.fa-linkedin-in{
+  color: grey;
+}
 
-.fa-facebook-square:hover{
+.fa-linkedin-in:hover{
   color: #4267b2;
 }
 
-.fa-twitter-square:hover{
-  color: #38a1f3;
+
+.fa-github-square{
+  color: lightgrey;
 }
 
-
-.fa-dribble-square:hover{
-  color: #ea4c89;
-
+.fa-github-square:hover{
+  color: #797979;
 }
+
 
 .my-skills {
   margin-top: 10rem;
@@ -272,7 +276,7 @@ li {
   width: 10rem;
   height: 10rem;
   border: 3px solid #ffe838;
-  background-color: #fd57bf;
+  background-color: #493636;
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg)
@@ -400,7 +404,7 @@ li {
  html {
    font-size: 10px;
    font-family: 'Roboto', sans-serif;
-   color: #eee;
+   color: #380808;
  }
 
  section {
@@ -413,7 +417,8 @@ a {
 }
 
 p {
-  font-size: 1.8 rem;
+  margin-top: 10px;
+  font-size: 1.8rem;
   font-weight:  300;
 }
 
@@ -442,7 +447,7 @@ textarea{
 
 input[type="submit"]{
   width: initial;
-  background-color: #fd57bf;
+  background-color: #493636;
   color: #eee;
   padding: 1rem 2rem;
   border-radius: .8rem;
@@ -459,7 +464,6 @@ input[type="submit"]:hover{
 .copyright{
   width: 100%;
   text-align: center;
-  background-color: #16162d;
   padding: 2rem 0;
   position: relative;
 }
@@ -469,7 +473,8 @@ input[type="submit"]:hover{
   position: absolute;
   width: 5rem;
   height: 5rem;
-  background-color: #eee;
+  background-color: #493636;
+  flex-direction: column;
   top: -2.5rem;
   right: 5rem;
   border-radius: 100%;

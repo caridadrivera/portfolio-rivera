@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../images/profile.jpeg';
+import profileImg from '../images/profile.jpg';
 import './About.css';
 import $ from 'jquery';
 
@@ -20,7 +20,7 @@ const About = () => {
               <h6>About</h6>
             </div>
             <p>
-              Cari for short. I am a Software Developer with experience in the design 
+              Cari for short. I am a Software Developer with experience in the design
               and architecture of beautiful, intuitive websites using hand-drawn wireframes,
               HTML, CSS, Jquery, JavaScript, React.js, Redux.js for the front-end and
               Ruby, Ruby on Rails, Sinatra, and SQL for back-end persistance.
@@ -30,17 +30,13 @@ const About = () => {
             <div className="social-media">
               <ul className="nav-list">
                 <li>
-                  <a href="#" className="icon-link">
-                      <i className="fab fa-facebook-square"> </i>
+                  <a href="https://www.linkedin.com/in/caridad-rivera-639352126/" className="icon-link">
+                      <i className="fab fa-linkedin-in"> </i>
                   </a>
                 </li>
+
                 <li>
-                  <a href="#" className="icon-link">
-                      <i className="fab fa-twitter-square"> </i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" className="icon-link">
+                  <a href="https://github.com/caridadrivera" className="icon-link">
                       <i className="fab fa-github-square"> </i>
                   </a>
                 </li>

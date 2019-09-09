@@ -11,68 +11,79 @@ const Portfolio = () => {
     <section className="portfolio" id="portfolio">
       <div className="container">
         <div className="section-heading">
-            <h1>Portfolio </h1>
+            <h1>Web Development Portfolio </h1>
             <h6> View some of my work </h6>
         </div>
 
         <div className="portfolio-item">
-          <div className="portfolio-img has-margin-right">
+          <div className="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
             <img src={memorieImg} alt=""/>
           </div>
-          <div className="portfolio-description has-margin-right">
-            <h6> Web Development </h6>
-            <h1> Blog Website</h1>
+          <div className="portfolio-description has-margin-right" data-aos="fade-left" data-aos-delay="600">
+            <h1> Memory Game</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            This game uses HTML, CSS and vanilla JavaScript to build a card memory game
+            composed of three different levels of difficulty and a leaderboard.
+            It is supported by a Ruby on Rails backend that persists the images, players and time
             </p>
-            <a href="#" className="cta"> View Details </a>
+            <a href="https://www.youtube.com/watch?v=98ledb3KwcI" className="cta"> View Demo </a>
+            <a href="https://github.com/caridadrivera/tile-matching-game-JS" className="cta"> View Code </a>
+
           </div>
         </div>
 
         <div className="portfolio-item">
-          <div className="portfolio-description has-margin-right">
-            <h6> Web Design </h6>
-            <h1> Product layout</h1>
+          <div className="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+            <h1> Mindful Activity App</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            Using only Ruby on Rails for backend and front end,
+            this app persists data and displays it beautifully in the front-end using HTML and custom CSS.
+            This application allows you to post activities you’ve done during the day to stay mindful(ie: running, meditating).
+            Using Active Record and self-referential relationships, the user is able to follow other users and see other users activity history.
+
             </p>
-            <a href="#" className="cta"> View Details </a>
+            <a href="https://www.youtube.com/watch?v=rAKMoulJ7NQ" className="cta"> View Demo </a>
+            <a href="https://github.com/caridadrivera/mindful-rails-app" className="cta"> View Code
+             </a>
+
           </div>
-          <div className="portfolio-img">
+          <div className="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
             <img src={mindfulImg} alt=""/>
           </div>
         </div>
 
 
         <div className="portfolio-item">
-          <div className="portfolio-img has-margin-right">
+          <div className="portfolio-img has-margin-right" data-aos="fade-left" data-aos-delay="1500">
             <img src={nycImg} alt=""/>
           </div>
-          <div className="portfolio-description has-margin-right">
-            <h6> Web Development </h6>
-            <h1> Product Sketch </h1>
+          <div className="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1800">
+            <h1> NYC Spots</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            This application uses React.js and Ruby on Rails to build a platform
+            where people share reviews of the night life in New York City.
+            The logged-in user gets to like other user's post and delete or post posts in their section.
             </p>
-            <a href="#" className="cta"> View Details </a>
+            <a href="https://www.youtube.com/watch?v=0DtWwmRTJmE" className="cta"> View Demo </a>
+            <a href="https://github.com/caridadrivera/NYC-Spots-React-Rails" className="cta"> View Code </a>
+
           </div>
         </div>
 
 
         <div className="portfolio-item">
-          <div className="portfolio-description has-margin-right">
-            <h6> Web Development </h6>
-            <h1> Product Sketch </h1>
+          <div className="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="1800">
+            <h1>React Movie Searcher </h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            This appication uses React.js to fetch from the Movie Database API and render movies to the user.
+            The user is able to filter out movies in the search box and load more from the database.
+            On click, the user can see a summary of the movie and it's rating using React Router.
             </p>
-            <a href="#" className="cta"> View Details </a>
+            <a href="https://www.youtube.com/watch?v=Otcgs3BfJnA&feature=youtu.be" className="cta"> View Demo</a>
+            <a href="https://github.com/caridadrivera/react-movie-search" className="cta"> View Code </a>
+
           </div>
-          <div className="portfolio-img has-margin-right">
+          <div className="portfolio-img has-margin-right" data-aos="fade-left" data-aos-delay="2100">
             <img src={movieImg} alt=""/>
           </div>
         </div>
