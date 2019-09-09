@@ -1,4 +1,5 @@
 import React from 'react';
+import AOS from 'aos';
 import './Experience.css'
 const Experience = () => {
   return (
@@ -10,7 +11,7 @@ const Experience = () => {
       <div className="section-heading">
           <h1>Education </h1>
       </div>
-      <div className="timeline">
+      <div className="timeline" data-aos="fade-down" data-aos-delay="300">
         <ul>
           <li className="date" data-date="02/2019 - 06/2019">
             <h1> Flatiron School Software Engineering Bootcamp </h1>
@@ -40,7 +41,7 @@ const Experience = () => {
             <h1>EMPLOYMENT HISTORY</h1>
 
         </div>
-        <div className="timeline">
+        <div className="timeline" data-aos="fade-down" data-aos-delay="300">
           <ul>
             <li className="date" data-date="03/2015 - 11/2018">
               <h1> StateFarm </h1>

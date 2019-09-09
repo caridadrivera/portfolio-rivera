@@ -4,10 +4,9 @@ import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Experience from './Components/Experience/Experience';
 import Contact from './Components/Contact/Contact';
-import Footer from './Components/Footer/Footer';
 import './App.css';
-import desktopImage from './portfoliobackground.jpg';
-import mobileImage from './portfoliobackground2.jpg';
+import desktopImage from './background-image.jpg';
+import mobileImage from './background-2.jpg';
 import $ from 'jquery';
 import AOS from 'aos';
 
