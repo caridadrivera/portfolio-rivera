@@ -337,7 +337,7 @@ li {
 .timeline ul{
   border-left:  4px solid #ffe838;
   border-radius: .8rem;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.09);
   margin: 0 auto;
   position: relative;
   padding: 5rem;

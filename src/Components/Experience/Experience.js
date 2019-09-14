@@ -23,7 +23,7 @@ const Experience = () => {
           <li className="date" data-date="08/2010 - 05/2014">
             <h1> St. Lawrence University </h1>
             <p>
-            Bachelor of Arts on Anthropology
+            Bachelor of Arts in Anthropology
             </p>
           </li>
 
