@@ -1,6 +1,7 @@
 import React from 'react';
 import AOS from 'aos';
-import './Experience.css'
+import './Experience.css';
+
 const Experience = () => {
   return (
 

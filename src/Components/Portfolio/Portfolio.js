@@ -1,9 +1,11 @@
 import React from 'react';
+import AOS from 'aos';
+
 import memorieImg from '../images/Memorie.jpeg'
 import mindfulImg from '../images/Mindful.jpeg'
 import nycImg from '../images/NYC-spots.jpeg'
 import movieImg from '../images/React-Movie-Search.jpeg';
-
+import reactGame from '../images/TicTac.png'
 
 
 const Portfolio = () => {
@@ -87,6 +89,35 @@ const Portfolio = () => {
             <img src={movieImg} alt=""/>
           </div>
         </div>
+
+
+
+        <div className="portfolio-item">
+          <div className="portfolio-description has-margin-right" data-aos="fade-left" data-aos-delay="2500">
+            <h1>React Tic Tac Toe </h1>
+            <p>
+            This appication uses React to create a classic Tic Tac Toe game that consists of two players that are handled based on state.
+            </p>
+            <a href="https://www.youtube.com/watch?v=Hzt5qjwfmWs" className="cta"> View Demo</a>
+            <a href="https://github.com/caridadrivera/React-tic-tac-toe" className="cta"> View Code </a>
+
+          </div>
+          <div className="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="2600">
+            <img src={reactGame} alt=""/>
+          </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
       </div>

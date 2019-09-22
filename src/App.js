@@ -4,6 +4,7 @@ import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Experience from './Components/Experience/Experience';
 import Contact from './Components/Contact/Contact';
+
 import './App.css';
 import desktopImage from './background-image.jpg';
 import mobileImage from './background-2.jpg';
