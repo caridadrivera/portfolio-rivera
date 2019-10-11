@@ -47,13 +47,13 @@
 }
 
 
-  .section-heading h1::after {
+.section-heading h1::after {
     width: 1.5rem;
     height: 1.5rem;
     border-radius: -1rem;
   }
 
- .section-heading h6{
+ .section-heading h6 {
    font-size: 1.5rem;
    font-weight: 300;
  }
@@ -99,7 +99,6 @@ li {
   font-family: 'The Historia Demo', sans-serif;
   font-size: 5rem;
   padding: 1rem;
-
 }
 
 .nav-link:hover,

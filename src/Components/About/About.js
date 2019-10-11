@@ -20,11 +20,11 @@ const About = () => {
               <h6>About</h6>
             </div>
             <p>
-              Cari for short. I am a Software Developer with experience in the design
-              and architecture of beautiful, intuitive websites using hand-drawn wireframes,
-              HTML, CSS, Jquery, JavaScript, React.js, Redux.js for the front-end and
-              Ruby, Ruby on Rails, Sinatra, and SQL for back-end persistance.
-              When I am not coding, I am reading, meditating and staying active.
+              Hey there!
+              I am a Software Developer with a year's experience in the design
+              and architecture of beautiful, intuitive websites using HTML, CSS, Jquery, JavaScript, React.js, Redux.js for the front-end and
+              Ruby, Ruby on Rails, Node.js, Express.js, Sinatra, PostgreSQL and MondoDB for back-end persistance.
+              I am a self-starter and life-long learner with the desire to become the best developer I can be.
             </p>
 
             <div className="social-media">
