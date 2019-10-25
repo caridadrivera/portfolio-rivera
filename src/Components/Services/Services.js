@@ -5,21 +5,11 @@ const Services = () =>{
     <section className="services" id="services">
       <div className="container">
         <div className="section-heading">
-            <h1>Services </h1>
-            <h6> What I can do for you </h6>
+            <h1>Skills </h1>
+            <h6> What I can do:</h6>
         </div>
 
         <div class="my-skills">
-          <div class="skill" data-aos="fade-in" data-aos-delay="300">
-            <div class="icon-container">
-              <i class="fas fa-layer-group"> </i>
-            </div>
-            <h1> Web Design</h1>
-            <p>
-              I design websites using hand-drawn wireframes as well as Adobe Office in
-              order to determine the styling and user experience before writing any code.
-            </p>
-          </div>
           <div class="skill" data-aos="fade-in" data-aos-delay="600">
             <div class="icon-container">
               <i class="fas fa-code"> </i>

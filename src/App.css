@@ -173,20 +173,19 @@ li {
 }
 
 .landing-text h1{
-  font-size: 20rem;
-  font-family: 'Knewave', cursive;
-  background: linear-gradient(to top, #ffe838, #fd57bf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+  /* font-family: 'Knewave', cursive; */
+  /* background: linear-gradient(to top, #ffe838, #fd57bf); */
+  color: black;
   padding: 1rem;
   user-select: none;
 }
 
 
-.landing-text h6 {
+/* .landing-text h6 {
   font-size: 2rem;
   font-weight: 300;
-}
+} */
 
 .about .container {
   display: flex;
