@@ -75,7 +75,7 @@ const App = () => {
     this.words = words;
     this.text = '';
     this.wordIndex = 0;
-    this.wait = parseInt(wait, 10);
+    this.wait = parseInt(wait, 8);
     this.type();
     this.isDeleting = false;
   }

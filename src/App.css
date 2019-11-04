@@ -183,6 +183,7 @@ li {
 
 .landing-text h6 {
   font-size: 2rem;
+  line-height: 0%;
   font-weight: 300;
 }
 
@@ -456,6 +457,9 @@ input[type="submit"]{
 input[type="submit"]:hover{
   background-color: #ffe838;
   color: #221e3f;
+
+
+  
 }
 
 .copyright{
