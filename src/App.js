@@ -10,6 +10,7 @@ import desktopImage from './background-image.jpg';
 import mobileImage from './background-2.jpg';
 import $ from 'jquery';
 import AOS from 'aos';
+import { tsMethodSignature } from '@babel/types';
 
 $(document).ready(function() {
 
@@ -98,8 +99,26 @@ const App = () => {
 
     this.textElement.innerHTML = `<h6 class="text">${this.text} </h6>`
 
+    let typeSpeed = 100;
 
-    setTimeout(()=> this.type(), 500)
+    if(this.isDeleting) {
+      typeSpeed /= 2;
+    }
+    // if word is complete
+    if(!this.isDeleting && this.text === fullText){
+      //Set delete to true
+      typeSpeed = this.wait;
+      //set delete to true 
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.text === ''){
+      this.isDeleting = false;
+      this.wordIndex++
+
+      typeSpeed = 500
+    }
+
+
+    setTimeout(()=> this.type(), typeSpeed)
   }
 
 
