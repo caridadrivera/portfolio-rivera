@@ -69,11 +69,56 @@ const App = () => {
 
   const imageUrl = window.innerWidth >= 650 ? desktopImage : mobileImage
 
+  const TypeWriter = function(textElement, words, wait = 3000){
+    this.textElement = textElement
+    this.words = words;
+    this.text = '';
+    this.wordIndex = 0;
+    this.wait = parseInt(wait, 10);
+    this.type();
+    this.isDeleting = false;
+  }
+
+
+
+  TypeWriter.prototype.type = function() {
+    const current = this.wordIndex % this.words.length;
+
+    const fullText = this.words[current]
+
+    if(this.isDeleting){
+      /* remove a char */
+      this.text = fullText.substring(0, this.text.length - 1)
+    } else {
+      /* add a char */
+      this.text = fullText.substring(0, this.text.length + 1)
+    }
+
+    /* output whatever is my current text, every half a second */
+
+    this.textElement.innerHTML = `<h6 class="text">${this.text} </h6>`
+
+
+    setTimeout(()=> this.type(), 500)
+  }
+
+
+
+
+  document.addEventListener('DOMContentLoaded', init);
+
+  function init() {
+    const textElement = document.querySelector('.text-type');
+    const words = JSON.parse(textElement.getAttribute('data-words'));
+    const wait = textElement.getAttribute('data-wait');
+
+    new TypeWriter(textElement, words, wait);
+  }
+
   return (
 
     <div className="App">
        <About />
-       <Services />
        <Portfolio />
        <Experience />
        <footer className="copyright">
