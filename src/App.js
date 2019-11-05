@@ -1,6 +1,6 @@
 import React, { useState, useEffect }  from 'react';
 import About from './Components/About/About';
-import Services from './Components/Services/Services';
+// import Services from './Components/Services/Services';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Experience from './Components/Experience/Experience';
 import Contact from './Components/Contact/Contact';
@@ -81,6 +81,7 @@ const App = () => {
   }
 
 
+ // typeWriter not a function error so I used a prototype to make it a function
 
   TypeWriter.prototype.type = function() {
     const current = this.wordIndex % this.words.length;
@@ -120,6 +121,7 @@ const App = () => {
 
     setTimeout(()=> this.type(), typeSpeed)
   }
+
 
 
 

@@ -103,7 +103,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-  background: linear-gradient(to top, #ffe838, #fd57bf);
+  background: linear-gradient(to top, #5a0d0d, #776559d0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -112,6 +112,11 @@ li {
   top: 0;
   border-radius: initial;
 }
+/* .center-div {
+  margin: 0 auto;
+  width: 100px;
+} */
+
 
 .menu-toggler {
   position: absolute;
@@ -132,7 +137,7 @@ li {
 }
 
 .bar {
-  background: linear-gradient(to right, #ff6839, #fd57bf);
+  background: black;
   width: 100%;
   height: 4px;
   border-radius: .8em;
@@ -175,9 +180,9 @@ li {
 .landing-text h1{
   font-size: 8rem;
   font-family: 'Knewave', cursive; 
-  color: black;
   padding: 1rem;
   user-select: none;
+  color: black;
 }
 
 
@@ -185,6 +190,7 @@ li {
   font-size: 2rem;
   line-height: 0%;
   font-weight: 300;
+  color: black;
 }
 
 .about .container {
@@ -207,6 +213,7 @@ li {
 
 .about-heading h6{
   font-size: 2rem;
+
   font-weight: 300;
 }
 

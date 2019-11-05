@@ -17,7 +17,7 @@ const Experience = () => {
           <li className="date" data-date="02/2019 - 06/2019">
             <h1> Flatiron School Software Engineering Bootcamp </h1>
             <p>
-            Attended a 15-week immersive Software Engineering program where we built projects using
+            In-person, 15-week immersive Software Engineering program where we learned to built projects using
             HTML, CSS, Javascript, Ruby, Ruby on Rails, Sinatra, SQL, Active Record, React.js and Redux.js
             </p>
           </li>
