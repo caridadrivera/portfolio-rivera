@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../images/profile.jpg';
+import profileImg from '../images/profilePic.jpg';
 import './About.css';
 import $ from 'jquery';
 
@@ -21,7 +21,8 @@ const About = () => {
             </div>
             <p>
               Welcome to my portfolio!
-              My name is Caridad. I am a Software Developer with a year's experience in the design
+              Your presence here means the world to me.
+              My name is Cari. I am a Software Developer with a year's experience in the design
               and architecture of beautiful, scalable and intuitive websites using HTML, CSS, Jquery, JavaScript, React.js, Redux.js, Node.js,
               Ruby, Ruby on Rails, Express.js, Sinatra, PostgreSQL and MondoDB.
 
