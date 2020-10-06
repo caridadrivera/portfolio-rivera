@@ -17,13 +17,15 @@ const About = () => {
           <div className="about-details" data-aos="fade-left" data-aos-delay="600">
             <div className="about-heading">
               <h1>About</h1>
-              <h6>About</h6>
+           
             </div>
             <p>
               Welcome to my portfolio!
-              Your presence here means the world to me.
-              My name is Cari. I am a Software Developer with a year's experience in the design
-              and architecture of beautiful, scalable and intuitive websites using HTML, CSS, Jquery, JavaScript, React.js, Redux.js, Node.js,
+              <br></br>
+              
+              I am a Software Developer with experience in building responsive, scalable and intuitive websites using HTML, CSS, Jquery, JavaScript, React.js in the Front End.
+               <br></br>
+              I also have experience building CRUD APIs with 
               Ruby, Ruby on Rails, Express.js, Sinatra, PostgreSQL and MondoDB.
 
             </p>
