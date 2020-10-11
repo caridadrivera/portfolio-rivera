@@ -23,7 +23,10 @@ const About = () => {
               Welcome to my portfolio!
               <br></br>
               
-              I am a Software Developer with experience in building responsive, scalable and intuitive websites using HTML, CSS, Jquery, JavaScript, React.js in the Front End.
+              I am a Software Developer with experience in building responsive and intuitive websites using the following STACK:
+              Front-End: HTML, CSS, Javascript
+              Fameworks: React.js, Ruby on Rails
+              Back-End: Node.js, PostgreSQL
                <br></br>
               I also have experience building CRUD APIs with 
               Ruby, Ruby on Rails, Express.js, Sinatra, PostgreSQL and MondoDB.
@@ -33,7 +36,7 @@ const About = () => {
             <div className="social-media">
               <ul className="nav-list">
                 <li>
-                  <a href="https://www.linkedin.com/in/caridad-rivera-639352126/" className="icon-link">
+                  <a href="https://www.linkedin.com/in/cari-rivera/" className="icon-link">
                       <i className="fab fa-linkedin-in"> </i>
                   </a>
                 </li>
